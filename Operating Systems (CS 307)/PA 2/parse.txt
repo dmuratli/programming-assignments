@@ -1,0 +1,28 @@
+----------
+Command: wc
+Inputs: input1.txt 
+Options: 
+Redirection: 
+Background Job: y
+----------
+----------
+Command: man
+Inputs: wc 
+Options: 
+Redirection: >
+Background Job: n
+----------
+----------
+Command: ls
+Inputs: 
+Options: -a 
+Redirection: 
+Background Job: y
+----------
+----------
+Command: grep
+Inputs: skyler 
+Options: -i 
+Redirection: <
+Background Job: y
+----------

@@ -1,0 +1,4 @@
+wc input1.txt &
+man wc > output1.txt
+ls -a &
+grep skyler -i < input1.txt &

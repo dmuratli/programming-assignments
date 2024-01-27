@@ -1,0 +1,59 @@
+              with -l, print the author of each file
+
+       -b, --escape
+--
+              with -l, scale sizes by SIZE when printing them; e.g., '--block-size=M'; see SIZE format below
+
+       -B, --ignore-backups
+--
+       -c     with  -lt:  sort by, and show, ctime (time of last change of file status information); with -l: show ctime and sort by name; other‐
+              wise: sort by ctime, newest first
+
+--
+              across -x, commas -m, horizontal -x, long -l, single-column -1, verbose -l, vertical -C
+
+       --full-time
+              like -l --time-style=full-iso
+
+       -g     like -l, but do not list owner
+
+       --group-directories-first
+--
+              with -l and -s, print sizes like 1K 234M 2G etc.
+
+       --si   likewise, but use powers of 1000 not 1024
+--
+       -H, --dereference-command-line
+              follow symbolic links listed on the command line
+
+       --dereference-command-line-symlink-to-dir
+              follow each command line symbolic link that points to a directory
+
+--
+       -l     use a long listing format
+
+       -L, --dereference
+--
+              like -l, but list numeric user and group IDs
+
+       -N, --literal
+              print entry names without quoting
+
+       -o     like -l, but do not list group information
+
+       -p, --indicator-style=slash
+--
+              with -l, WORD determines which time to show; with --sort=time, sort by WORD (newest first)
+
+       --time-style=TIME_STYLE
+              time/date format with -l; see TIME_STYLE below
+
+       -t     sort by time, newest first; see --time
+--
+       -u     with -lt: sort by, and show, access time; with -l: show access time and sort by name; otherwise: sort by access time, newest first
+
+       -U     do not sort; list entries in directory order
+--
+       2      if serious trouble (e.g., cannot access command-line argument).
+
+AUTHOR
